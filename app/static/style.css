@@ -1,0 +1,193 @@
+html {
+    font-family: "Rufina", sans-serif;
+}
+
+body {
+    background-color: #e5e8e5;
+    margin: 0;
+    color: #0d3797;
+}
+
+a {
+    transition: color 0.3s ease;
+    font-family: 'Rubik', sans-serif;
+    color: #0d3797;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+a:hover {
+    color: #23a535;
+}
+
+html body header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fbfbfb;
+    box-shadow: 3px 0 5px #aaa;
+    padding: 15px 30px;
+    position: relative;
+    z-index: 2;
+}
+
+header .logo {
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+
+html body nav ul {
+    list-style-type: none;
+    font-size: 16px;
+}
+
+html body nav ul li {
+    display: inline-block;
+}
+
+html body nav ul li a { /*Separar los links de contacto e inicio y facilitar el click */
+    padding: 0 15px;
+}
+
+.hero { 
+    position: relative;
+    z-index: 1;
+    display: flex;
+    background-color: #f7f7f7;
+    padding: 20px,50px;
+    justify-content: center;
+    
+}
+
+.hero .hero-content {
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+}
+
+.hero h1 {
+    font-family: 'Rufina', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.hero p {
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 50px;
+}
+
+.left { /* centar titulos*/
+    width: 600px;
+    align-self: center;
+}
+
+.btn {
+    background-color: #079307;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+a.btn {
+    color: #fff;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    width: 1200px;
+}
+
+.row {
+    display: flex; /*pasar contendio a derecha*/
+    flex-direction: row;
+}
+
+.green {
+    color:#23a535;
+}
+
+.padded {
+    padding: 20px 30px;
+}
+
+.vert-pad {
+    padding: 20px 0;
+}
+
+.card {
+    background-color: #fff;
+    box-shadow: 0 1px 2px #ddd;
+    border : solid 1px #ddd;
+    border-radius: 8px;
+    padding: 20px 30px;
+}
+
+.third {
+    width: 360px;
+    margin: 20px;
+}
+
+.contact-form input {
+    font-family: "Rubik", sans-serif;
+    border: none;
+    height: 30px;
+    padding: 5px 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    width: calc(100% - 20px);
+}
+
+.contact-form textarea {
+    font-family: "Rubik", sans-serif;
+    border: none;
+    height: 100px;
+    padding: 15px 10px;
+    resize: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    width: calc(100% - 20px);
+}
+
+.full-width {
+    width: 100%;
+}
+
+.footer {
+    padding: 80px 0 0 0;
+    background-color: #333;
+    color: #fff;
+}
+
+
+.social-links {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.social-links a {
+    margin: 0 10px;
+}
+
+.social {
+background-color: #fff;
+padding: 10px;
+border-radius: 15px;
+}
+
+.made-with {
+    padding: 0 30px;
+    color: #555;
+}
+
+.white-bg {
+background-color: #fbfbfb;  
+}
